@@ -9,7 +9,7 @@
 .add-calculo-input {
     height: 40px;
     padding: 0 10px;
-    border-radius: 5px;
+    border-radius: 12px 0;
     border: none;
     flex: 3;
     background-color: #34384028;
