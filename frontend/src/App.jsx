@@ -38,7 +38,7 @@ const App = () => {
       <ListaCalculo lista_calculo={lista_calculo} />
 
       <br /><hr />
-      <p className='format'><em>Desenvolvido por <a href="https://github.com/rafaelviefe" target="_blank" rel="noreferrer">Rafael Vieira Ferreira</a></em></p>
+      <p className='format'><em>Desenvolvido por <a href="https://github.com/rafaelviefe/app-bridge-main" target="_blank" rel="noreferrer">Rafael Vieira Ferreira</a></em></p>
 
     </div> 
   );
