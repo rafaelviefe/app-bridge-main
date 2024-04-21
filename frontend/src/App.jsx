@@ -29,7 +29,7 @@ const App = () => {
     <div className='container'>
 
       <h1>Desafio Bridge | Desenvolvimento Web</h1>
-      <p align='justify'>Esta <strong>Aplicação Web</strong> calcula o número de números primos <strong>n</strong> menores que <strong>k</strong>.</p>
+      <p align='justify'>Esta <strong>Aplicação Web</strong> calcula a quantidade de números primos <strong>n</strong> menores que <strong>k</strong>.</p>
 
       <AddCalculo handleCalculoAddition={handleCalculoAddition} /> 
       <hr />
