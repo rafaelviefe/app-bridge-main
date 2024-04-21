@@ -2,13 +2,13 @@
 border-radius: 40px 0;*/
 
 .container {
-  background: rgba(240, 240, 245, .02);
+  background: #f0f0f505;
   max-width: 700px;
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
   padding: 15px 30px 5px;
-  color: #f0f0f5ee;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.103);
+  color: #f0f0f5cb;
+  box-shadow: 3px 3px 5px #0000001a;
 }
 

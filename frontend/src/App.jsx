@@ -32,12 +32,12 @@ const App = () => {
       <p align='justify'>Esta <strong>Aplicação Web</strong> calcula a quantidade de números primos <strong>n</strong> menores que <strong>k</strong>.</p>
 
       <AddCalculo handleCalculoAddition={handleCalculoAddition} /> 
-      <hr />
+      <hr color='#999999'/>
 
       <p><strong className='format'>Histórico</strong></p>
       <ListaCalculo lista_calculo={lista_calculo} />
 
-      <br /><hr />
+      <br /><hr color='#999999'/>
       <p className='format'><em>Desenvolvido por <a href="https://github.com/rafaelviefe/app-bridge-main" target="_blank" rel="noreferrer">Rafael Vieira Ferreira</a></em></p>
 
     </div> 
