@@ -10,7 +10,7 @@ Esta *Aplicação Web* calcula a quantidade de números primos *n* menores que *
 * [Rodando localmente](#-rodando-o-projeto-localmente-)
     * [Pré-requisitos](#-pré-requisitos)
     * [Instalação](#-instalação)
-    * [Iniciando os servidores](#EF%B8%8F-iniciando-os-servidores)
+    * [Iniciando os servidores](#%EF%B8%8F-iniciando-os-servidores)
 
 ## 📕 Sobre
 
