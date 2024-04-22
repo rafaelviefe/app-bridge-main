@@ -1,26 +1,30 @@
 /*Configurações de entrada (botão, placeholder e input)*/
 
-.add-calculo-container {
+section.add-calculo-container {
     margin: 25px 0 20px;
     width: 100%;
+
     display: flex;
 }
 
-.add-calculo-input {
+input.add-calculo-input {
     height: 40px;
     padding: 0 10px;
-    border-radius: 12px 0;
+
+    border-radius:12px 0;
     border: none;
+
     flex: 3;
+
     background-color: #34384028;
-    color: #F0F0F5;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.11);
+    color: var(--texto);
+    box-shadow: 3px 3px 5px var(--sombra);
 }
 
-.add-calculo-button-container {
+div.add-calculo-button-container {
     margin-left: 10px;
     flex: 1;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.11);
+    box-shadow: 3px 3px 5px var(--sombra);
 }
 
 ::-webkit-input-placeholder {

@@ -9,9 +9,11 @@ const AddCalculo = ({handleCalculoAddition}) => {
     const backend = (entrada) => {
         api
         .get("/bridge?k="+entrada)
+
         .then((response) => {
             handleCalculoAddition(inputData, response.data.resultado, response.data.tempoExec)
         })
+
         .catch((err) => {
             console.error("ops! ocorreu um erro " + err);
         })
@@ -29,23 +31,26 @@ const AddCalculo = ({handleCalculoAddition}) => {
     };
 
     return (
-        <div className='add-calculo-container'>
+        <section className='add-calculo-container'>
 
             <input
-                onChange={handleInputChange}
-                value={inputData}
                 type='number'
                 max="100000"
                 min="0"
+
+                onChange={handleInputChange}
+                value={inputData}
+
                 className='add-calculo-input'
                 placeholder='Digite um número inteiro entre 0 e 100.000'
             />
+
             <div className='add-calculo-button-container'>
                 <Button onClick={handleAddCalculoClick}>Calcular</Button>
             </div>
 
-        </div>
+        </section>
     );
 }
- 
+
 export default AddCalculo;

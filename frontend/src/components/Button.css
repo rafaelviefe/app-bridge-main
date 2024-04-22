@@ -1,21 +1,28 @@
 /*Estilização do botão*/
 
-.add-button {
-    background: #121214;
+button.add-button {
+    background: none;
+    border-radius: 9px 2px;
+    border: 2px solid var(--magenta);
+    box-shadow: 3px 3px 3px var(--sombra);
+
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--magenta);
+
     height: 40px;
     padding: 0 10px;
-    border-radius: 9px 2px;
     width: 100%;
-    font-size: 16px;
-    color: #c826ce;
-    font-weight: bold;
+    
     cursor: pointer;
-    border: 2px solid #c826ce;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.11);
+    transition: .25s;
 }
 
-.add-button:hover{
-    background: #c826ce;
-    color: #121214;
+button.add-button:hover{
+    font-size: 17px;
+
+    background: var(--magenta);
+    color: var(--background);
+
     transition: .25s;
 }

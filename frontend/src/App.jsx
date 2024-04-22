@@ -4,7 +4,7 @@ import ListaCalculo from './components/ListaCalculo';
 import {v4 as uuidv4} from 'uuid';
 import './App.css';
 
-/*Manipulação de listas*/
+/*Manipulação das listas*/
 
 const App = () => {
   const [lista_calculo, setListaCalculo] = useState([]);
@@ -26,7 +26,7 @@ const App = () => {
 
   return (
 
-    <div className='container'>
+    <main className='container'>
 
       <h1>Desafio Bridge | Desenvolvimento Web</h1>
       <p align='justify'>Esta <strong>Aplicação Web</strong> calcula a quantidade de números primos <strong>n</strong> menores que <strong>k</strong>.</p>
@@ -34,13 +34,13 @@ const App = () => {
       <AddCalculo handleCalculoAddition={handleCalculoAddition} /> 
       <hr color='#999999'/>
 
-      <p><strong className='format'>Histórico</strong></p>
+      <p className='format'><strong>Histórico</strong></p>
       <ListaCalculo lista_calculo={lista_calculo} />
 
       <br /><hr color='#999999'/>
       <p className='format'><em>Desenvolvido por <a href="https://github.com/rafaelviefe/app-bridge-main" target="_blank" rel="noreferrer">Rafael Vieira Ferreira</a></em></p>
 
-    </div> 
+    </main> 
   );
 }
 

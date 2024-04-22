@@ -1,14 +1,16 @@
 /*Corpo principal
 border-radius: 40px 0;*/
 
-.container {
-  background: #f0f0f505;
-  max-width: 700px;
-  margin: 30px auto;
-  overflow: auto;
-  min-height: 300px;
-  padding: 15px 30px 5px;
-  color: #f0f0f5cb;
-  box-shadow: 3px 3px 5px #0000001a;
-}
+main.container {
+  background: rgba(240, 240, 245, 0.02);
+  box-shadow: 3px 3px 3px var(--sombra);
+  border-radius: 0 0 8px 8px;
 
+  max-width: 700px;
+  min-height: 300px;
+  margin: 30px auto;
+  padding: 15px 30px 5px;
+
+  overflow: auto;
+  color: var(--texto);
+}
