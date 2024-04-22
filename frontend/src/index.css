@@ -26,6 +26,7 @@ code {
 
 a, h1{
   color: var(--magenta);
+  text-shadow: 2px 2px 3px #0000003f;
 }
 
 a{
