@@ -19,7 +19,7 @@ Esta Aplicação Web calcula a quantidade de números primos <strong>n</strong> 
 
 ## 💫 Resultados
 
-![demonstração](demo.png)
+![demonstração do app](demo-app-1.png)
 
 # 🚀 Rodando o projeto localmente
 
