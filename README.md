@@ -10,7 +10,7 @@ Esta *Aplicação Web* calcula a quantidade de números primos *n* menores que *
 * [Rodando localmente](#-rodando-o-projeto-localmente-)
     * [Pré-requisitos](#-pré-requisitos)
     * [Instalação](#-instalação)
-    * [Iniciando os servidores](#-iniciando-os-servidores)
+    * [Iniciando os servidores](#EF%B8%8F-iniciando-os-servidores)
 
 ## 📕 Sobre
 
@@ -42,7 +42,7 @@ Antes de tudo verifique se você tem todas essas ferramentas instaladas e config
 
 ## 🌱 Instalação
 
-* Primeiramente, clone (através do comando ' *git* clone https://github.com/rafaelviefe/app-bridge-main.git ') ou baixe o repositório pelo *github* e extraia na sua pasta desejada.
+* Primeiramente, clone (através do comando ' *git* clone https://github.com/rafaelviefe/app-bridge-main.git ') ou baixe o [repositório](https://github.com/rafaelviefe/app-bridge-main) pelo *github* e extraia na sua pasta desejada.
 * Agora, basta abrir a pasta do _frontend_ e do _backend_ e você está preparado para começar.
 
 ## ✔️ Iniciando os servidores
