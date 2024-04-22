@@ -4,10 +4,10 @@
 
 ## 📍 Índice
 
-* [Sobre](#📕-sobre)
-* [Tecnologias utilizadas](#🧪-tecnologias-utilizadas)
-* [Resultados](#💫-resultados)
-* [Rodando localmente](#🚀-rodando-o-projeto-localmente-🚀)
+* [Sobre](#-sobre)
+* [Tecnologias utilizadas](#-tecnologias-utilizadas)
+* [Resultados](#-resultados)
+* [Rodando localmente](#-rodando-o-projeto-localmente-)
 
 ## 📕 Sobre
 
@@ -19,7 +19,7 @@ Para a implementação do projeto as seguintes tecnologias foram utilizadas:
 - <strong>JavaScript e sua bibloteca ReactJS</strong>, para o frontend e funcionamento geral;
 - <strong>CSS e HTML</strong>, para estilização e estruturação;
 - <strong>Java</strong>, para o backend e a realização dos cálculos;
-- <strong>Axios e Springboot</strong>, responsáveis pela integração do front end e backend;
+- <strong>Axios e Springboot</strong>, responsáveis pela integração do frontend e backend;
 - <strong>Npm</strong>, para rodar o servidor frontend;
 - <strong>VS Code</strong>, editor escolhido para trabalhar com o código.
 
