@@ -38,7 +38,7 @@ const App = () => {
       <ListaCalculo lista_calculo={lista_calculo} />
 
       <br /><hr color='#999999'/>
-      <p className='format'><em>Desenvolvido por <a href="https://github.com/rafaelviefe/app-bridge-main" target="_blank" rel="noreferrer">Rafael Vieira Ferreira</a></em></p>
+      <p className='format'><em>Desenvolvido por <a href="https://github.com/rafaelviefe/calculadora-de-primos" target="_blank" rel="noreferrer">Rafael Vieira Ferreira</a></em></p>
 
     </main> 
   );
