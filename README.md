@@ -7,6 +7,7 @@ Esta **Aplicação Web** calcula a quantidade de números primos **n** menores q
 * [Sobre](#-sobre)
 * [Tecnologias utilizadas](#-tecnologias-utilizadas)
 * [Resultados](#-resultados)
+* [Contato](#-contato)
 * [Rodando localmente](#-rodando-o-projeto-localmente-)
     * [Pré-requisitos](#-pré-requisitos)
     * [Instalação](#-instalação)
@@ -31,7 +32,12 @@ Para a implementação do projeto as seguintes tecnologias foram utilizadas:
 ## 💫 Resultados
 
 Você pode ver abaixo uma demonstração do site em funcionamento:
-![demonstração do app](demo2-app.png)
+![Demonstração do app](demonstracao-app.png)
+
+## 🪐 Contato
+
+Rafael Vieira Ferreira - <rafaelviefe@gmail.com>
+
 
 # 🚀 Rodando o projeto localmente 🚀
 
@@ -43,7 +49,11 @@ Antes de tudo verifique se você tem todas essas ferramentas instaladas e config
 
 ## 🌱 Instalação
 
-* Primeiramente, clone (através do comando ' **git** clone <https://github.com/rafaelviefe/app-bridge-main.git> ') ou baixe o [repositório](https://github.com/rafaelviefe/app-bridge-main) pelo **github** e extraia na sua pasta desejada.
+* Primeiramente, você pode baixar o [repositório](https://github.com/rafaelviefe/app-bridge-main) e extrair na sua pasta desejada, ou cloná-lo diretamente através deste comando:
+
+```
+git clone <https://github.com/rafaelviefe/app-bridge-main.git> '
+```
 
 * Agora, basta abrir a pasta do _frontend_ e do _backend_ e você está preparado para começar.
 
@@ -57,6 +67,10 @@ npm install
 npm start
 ```
 
-* Para rodar o _backend_, execute o programa **AppBridgeApplication.java** (para encontrá-lo, siga esse caminho: app-bridge-main/backend/app-bridge/src/main/java/com/example/appbridge);
+* Para rodar o _backend_, execute o programa abaixo (para encontrá-lo, siga esse caminho: app-bridge-main/backend/app-bridge/src/main/java/com/example/appbridge):
+
+```
+AppBridgeApplication.java
+```
 
 * Os servidores web rodarão nas portas **:3000** e **:8080**, respectivamente (acesse usando <http://localhost:3000>).
