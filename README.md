@@ -49,17 +49,17 @@ Antes de tudo verifique se você tem todas essas ferramentas instaladas e config
 
 ## 🌱 Instalação
 
-* Primeiramente, você pode baixar o [repositório](https://github.com/rafaelviefe/app-bridge-main) e extrair na sua pasta desejada, ou cloná-lo diretamente através deste comando:
+* Primeiramente, você pode baixar o [repositório](https://github.com/rafaelviefe/calculadora-de-primos) e extrair na sua pasta desejada, ou cloná-lo diretamente através deste comando:
 
 ```
-git clone https://github.com/rafaelviefe/app-bridge-main.git
+git clone https://github.com/rafaelviefe/calculadora-de-primos.git
 ```
 
 * Agora, basta abrir a pasta do _frontend_ e do _backend_ e você está preparado para começar.
 
 ## ✔️ Iniciando os servidores
 
-* Para rodar o _frontend_, abra o terminal no diretório "**app-bridge-main/frontend**";
+* Para rodar o _frontend_, abra o terminal no diretório "**calculadora-de-primos-main/frontend**";
 * Em seguida, execute os seguintes comandos (na ordem):
 
 ```
@@ -67,7 +67,7 @@ npm install
 npm start
 ```
 
-* Para rodar o _backend_, execute o programa abaixo (para encontrá-lo, siga esse caminho: app-bridge-main/backend/app-bridge/src/main/java/com/example/appbridge):
+* Para rodar o _backend_, execute o programa abaixo (para encontrá-lo, siga esse caminho: calculadora-de-primos-main/backend/app-bridge/src/main/java/com/example/appbridge):
 
 ```
 AppBridgeApplication.java
