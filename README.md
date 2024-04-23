@@ -31,8 +31,8 @@ Para a implementação do projeto as seguintes tecnologias foram utilizadas:
 ## 💫 Resultados
 
 Você pode ver abaixo uma demonstração do site em funcionamento:
-![demonstração do app](demo-app-1.png)
-![alt text](demo2-app.png)
+![demonstração do app](demo2-app.png)
+
 # 🚀 Rodando o projeto localmente 🚀
 
 Caso você queira rodar a Aplicação na sua própria máquina, aqui vai um passo a passo.
@@ -57,6 +57,6 @@ npm install
 npm start
 ```
 
-* Para rodar o _backend_, dê _run_ no programa **AppBridgeApplication.java** (para achá-lo, siga esse caminho: app-bridge-main/backend/app-bridge/src/main/java/com/example/appbridge)
+* Para rodar o _backend_, execute o programa **AppBridgeApplication.java** (para encontrá-lo, siga esse caminho: app-bridge-main/backend/app-bridge/src/main/java/com/example/appbridge);
 
 * Os servidores web rodarão nas portas **:3000** e **:8080**, respectivamente (acesse usando <http://localhost:3000>).
