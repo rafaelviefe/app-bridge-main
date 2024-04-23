@@ -32,7 +32,7 @@ Para a implementação do projeto as seguintes tecnologias foram utilizadas:
 
 Você pode ver abaixo uma demonstração do site em funcionamento:
 ![demonstração do app](demo-app-1.png)
-
+![alt text](demo2-app.png)
 # 🚀 Rodando o projeto localmente 🚀
 
 Caso você queira rodar a Aplicação na sua própria máquina, aqui vai um passo a passo.
