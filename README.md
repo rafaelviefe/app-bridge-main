@@ -49,7 +49,9 @@ Antes de tudo verifique se você tem todas essas ferramentas instaladas e config
 
 * Para rodar o _frontend_, abra o terminal no diretório "**app-bridge-main/frontend**";
 * Em seguida, execute os seguintes comandos (na ordem): ' **npm** install ' e ' **npm** start ';
-$ npm install
-$ npm start
+```
+npm install
+npm start
+```
 * Para rodar o _backend_, dê _run_ no programa **AppBridgeApplication.java** (para achá-lo, siga esse caminho: app-bridge-main/backend/app-bridge/src/main/java/com/example/appbridge)
 * Os servidores web rodarão nas portas **:3000** e **:8080**, respectivamente (acesse usando http://localhost:3000).
