@@ -19,6 +19,7 @@ O objetivo (criado pelo [Laboratório Bridge](https://portal.bridge.ufsc.br)) de
 ## 🧪 Tecnologias utilizadas
 
 Para a implementação do projeto as seguintes tecnologias foram utilizadas:
+
 - **JavaScript e sua bibloteca ReactJS**, para o _frontend_ e funcionamento geral;
 - **CSS e HTML**, para estilização e estruturação;
 - **Java**, para o _backend_ e a realização dos cálculos;
@@ -42,16 +43,20 @@ Antes de tudo verifique se você tem todas essas ferramentas instaladas e config
 
 ## 🌱 Instalação
 
-* Primeiramente, clone (através do comando ' **git** clone https://github.com/rafaelviefe/app-bridge-main.git ') ou baixe o [repositório](https://github.com/rafaelviefe/app-bridge-main) pelo **github** e extraia na sua pasta desejada.
+* Primeiramente, clone (através do comando ' **git** clone <https://github.com/rafaelviefe/app-bridge-main.git> ') ou baixe o [repositório](https://github.com/rafaelviefe/app-bridge-main) pelo **github** e extraia na sua pasta desejada.
+
 * Agora, basta abrir a pasta do _frontend_ e do _backend_ e você está preparado para começar.
 
 ## ✔️ Iniciando os servidores
 
 * Para rodar o _frontend_, abra o terminal no diretório "**app-bridge-main/frontend**";
-* Em seguida, execute os seguintes comandos (na ordem): ' **npm** install ' e ' **npm** start ';
+* Em seguida, execute os seguintes comandos (na ordem):
+
 ```
 npm install
 npm start
 ```
+
 * Para rodar o _backend_, dê _run_ no programa **AppBridgeApplication.java** (para achá-lo, siga esse caminho: app-bridge-main/backend/app-bridge/src/main/java/com/example/appbridge)
-* Os servidores web rodarão nas portas **:3000** e **:8080**, respectivamente (acesse usando http://localhost:3000).
+
+* Os servidores web rodarão nas portas **:3000** e **:8080**, respectivamente (acesse usando <http://localhost:3000>).
