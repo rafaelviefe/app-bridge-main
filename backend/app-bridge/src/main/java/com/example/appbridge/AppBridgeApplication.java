@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @SpringBootApplication
 @RestController
 public class AppBridgeApplication {
-// cálculo feito pelo backend (tempo e output)
+// cálculo feito pelo backend (tempo de execução e output)
 	public static void main(String[] args) {
 		SpringApplication.run(AppBridgeApplication.class, args);
 	}
@@ -44,7 +44,8 @@ public class AppBridgeApplication {
             primo = true;
             //os elementos são resetados para que o loop recomece
 
-            while (divisor < n && primo){ //rodará até que ache um divisor ou acabe as opções
+            while (divisor < n && primo){
+            //rodará até que ache um divisor ou acabe as opções
                 if (n % divisor == 0) primo = false;
 
                 divisor += 1;
