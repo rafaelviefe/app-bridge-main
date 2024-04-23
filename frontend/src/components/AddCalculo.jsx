@@ -3,7 +3,7 @@ import Button from './Button';
 import api from '../api.js';
 import './AddCalculo.css';
 
-/*Integração*/
+/*Integração, validação e funcionamento do input*/
 
 const AddCalculo = ({handleCalculoAddition}) => {
     const backend = (entrada) => {
@@ -22,8 +22,13 @@ const AddCalculo = ({handleCalculoAddition}) => {
     const [inputData, setInputData] = useState();
 
     const handleInputChange = (e) => {
+
+    if (e.target.value < 0 || e.target.value > 100000){
+        alert('Digite apenas números entre 0 e 100.000!')
+    }else{
         setInputData(e.target.value);
-    };
+    }
+};
 
     const handleAddCalculoClick = () => {
         backend(inputData);
@@ -42,7 +47,7 @@ const AddCalculo = ({handleCalculoAddition}) => {
                 value={inputData}
 
                 className='add-calculo-input'
-                placeholder='Digite um número inteiro entre 0 e 100.000'
+                placeholder='Digite um número entre 0 e 100.000'
             />
 
             <div className='add-calculo-button-container'>
