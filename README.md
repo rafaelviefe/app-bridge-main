@@ -45,14 +45,14 @@ Caso você queira rodar a Aplicação na sua própria máquina, aqui vai um pass
 
 ## 📜 Pré-requisitos
 
-Antes de tudo verifique se você tem todas essas ferramentas instaladas e configuradas: [Java](https://www.java.com/pt_BR/), [NPM](https://www.npmjs.com/) e [VSCode](https://code.visualstudio.com/) (lembrando que você pode utilizar o editor de sua preferência).
+Antes de tudo verifique se você tem todas essas ferramentas instaladas e configuradas: [Java](https://www.java.com/pt_BR/), [NPM](https://www.npmjs.com/) e [VSCode](https://code.visualstudio.com/) (lembrando que você pode utilizar a IDE de sua preferência, a maioria delas possuem já extensões para Maven e JDK).
 
 ## 🌱 Instalação
 
 * Primeiramente, você pode baixar o [repositório](https://github.com/rafaelviefe/app-bridge-main) e extrair na sua pasta desejada, ou cloná-lo diretamente através deste comando:
 
 ```
-git clone <https://github.com/rafaelviefe/app-bridge-main.git> '
+git clone https://github.com/rafaelviefe/app-bridge-main.git
 ```
 
 * Agora, basta abrir a pasta do _frontend_ e do _backend_ e você está preparado para começar.
