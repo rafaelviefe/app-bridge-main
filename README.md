@@ -15,7 +15,7 @@ Esta **Aplicação Web** calcula a quantidade de números primos **n** menores q
 
 ## 📕 Sobre
 
-O objetivo (criado pelo [Laboratório Bridge](https://portal.bridge.ufsc.br)) desse desafio é implementar uma Aplicação Web na qual, a partir de uma entrada, calcula a quantidade de números primos menores do que ela como saída (por exemplo, sendo a entrada 5, a saída do programa deve ser 2, pois 2 e 3 são primos). Além disso, o programa também conta o tempo levado para executar o cálculo, assim como exibe e armazena os resultados imediatamente na tela juntamente com o número informado pelo usuário.
+O objetivo desse desafio (criado pelo [Laboratório Bridge](https://portal.bridge.ufsc.br)) é implementar uma Aplicação Web na qual, a partir de uma entrada, calcula a quantidade de números primos menores do que ela como saída (por exemplo, sendo a entrada 5, a saída do programa deve ser 2, pois 2 e 3 são primos). Além disso, o programa também conta o tempo levado para executar o cálculo, assim como exibe e armazena os resultados imediatamente na tela juntamente com o número informado pelo usuário.
 
 ## 🧪 Tecnologias utilizadas
 
